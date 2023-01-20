@@ -18,10 +18,19 @@
   padding: 5px;
 }
 
-div > p {
-  background-color: white;
+.questions {
+  background-color: blue;
+  color: white;
   padding: 5px 10px;
   display: flex;
   align-items: center;
   justify-content: center;
+}
+
+.btn {
+  padding: 2px;
+  color: gray;
+  background-color: white;
+  border: 2px solid rgb(194, 75, 75);
+  border-radius: 50;
 }

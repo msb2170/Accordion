@@ -6,7 +6,8 @@ export default function Question(props) {
     return (
         <div className={open ? 'open' : 'closed'}>
             <h4>{props.title}</h4>
-            <span onClick={() => setOpen(!open)}>{open ? '-' : '+'}</span>
+            <span className='btn' onClick={() => setOpen(!open)}>{open ? '-' : '+'}</span>
+            {open && <p>{props.info}</p>}
         </div>
     )
 }
